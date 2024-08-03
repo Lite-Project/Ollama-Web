@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    font-family: 'Monaco', monospace;
+    background-color: #1e1e1e; /* dark background */
+    color: #d4d4d4; /* light text */
+    
+}
+
+html, body {
+    height: 90%;
+}
+
+.terminal {
+    max-width: 1000px;
+    height: 95%;
+    max-height: 800px;
+    margin: 30px auto;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.terminal-input {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    right: 20px;
+}
+
+#terminal-input {
+    width: 96%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #2d2d2d;
+    color: #d4d4d4;
+    padding-right: 25px;
+    bottom: 25px;
+    position: absolute;
+}
+
+.terminal-output {
+    max-width: 1000px;
+    height: 90%;
+    padding: 40px;
+    background-color: red; /*#1e1e1e*/
+    border-radius: 40px;
+    font-size: 16px;
+    overflow-y: scroll;
+    top: 0; /* Set top to 0 */
+}
+
+.terminal-output::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#ascii {
+    font-size: 24px;
+}
